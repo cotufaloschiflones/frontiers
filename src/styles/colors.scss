@@ -1,0 +1,13 @@
+$blue: #00A0D2;
+$grey: #555555;
+$greyLight: #E5E5E5;
+$black: #020202;
+
+// https://github.com/css-modules/icss
+// can access in vueJS
+:export{
+  blue: $blue;
+  grey: $grey;
+  greyLight: $greyLight;
+  black: $black;
+}
